@@ -25,3 +25,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   private key material into Termimus. The agent is tried identity by
   identity until the server accepts one, with the same RSA hash negotiation
   and keyboard-interactive fallback as private-key auth.
+- **Select to copy, right-click to paste (terminal)** — a new toggle in
+  Settings → Terminal (off by default) makes selecting text copy it to the
+  clipboard automatically and right-clicking paste the clipboard straight
+  into the terminal. When off, behavior is unchanged: right-click opens the
+  context menu and selection does not copy.
