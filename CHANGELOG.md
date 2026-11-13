@@ -24,7 +24,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   Bitwarden Desktop exposes — so Bitwarden SSH keys work without copying
   private key material into Termimus. The agent is tried identity by
   identity until the server accepts one, with the same RSA hash negotiation
-  and keyboard-interactive fallback as private-key auth.
+  and keyboard-interactive fallback as private-key auth. Setup instructions
+  for Bitwarden, 1Password, KeePassXC, and the system OpenSSH agent:
+  docs/ssh-agent-setup.md.
 - **Select to copy, right-click to paste (terminal)** — a new toggle in
   Settings → Terminal (off by default) makes selecting text copy it to the
   clipboard automatically and right-clicking paste the clipboard straight
